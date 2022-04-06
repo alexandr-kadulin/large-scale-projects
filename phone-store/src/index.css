@@ -1,0 +1,41 @@
+:root {
+  --clr-primary: #2a2a72;
+  --clr-primary-light: #009ffd;
+  --clr-white: #f3f3f3;
+  --clr-black: #232528;
+  --clr-yellow: #ffa400;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--clr-white) !important;
+  color: var(--clr-black) !important;
+}
+
+.text-title {
+  font-family: "Special Elite", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--clr-primary);
+}
+.text-bright {
+  color: var(--clr-primary-light);
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--clr-black);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--clr-black) !important;
+}
+.btn-black:hover {
+  background: var(--clr-black) !important;
+  color: var(--clr-white) !important;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--clr-yellow);
+}
